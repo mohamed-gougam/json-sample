@@ -3,27 +3,42 @@
         {
             "userId": "user1",
             "content": "This is the first quest.",
-            "image": ""
+            "image": "",
+            "type": "gavo_code, select_right_answer, exact_answer",
+            "answer": "gavo_code, quest_selected_answer, quest_exact_answer",
+            "quest": ["Enter code, Propositions list, question"]
         },
         {
             "userId": "user2",
             "content": "This is the first long kinda quest. Epsum dolorum prat hoges datink labos. Selink jarot hafavi coupe de seches leches resto plat",
-            "image": ""
+            "image": "",
+            "type": "gavo_code",
+            "answer": "gavo-67HDHS7",
+            "quest": ["What's the code?"]
         },
         {
             "userId": "user1",
             "content": "This is the first quest with an image.",
-            "image": "https://www.petafrance.com/wp-content/uploads/2019/07/louie-white-lion-at-lions-tigers-and-bears.jpg"
+            "image": "https://www.petafrance.com/wp-content/uploads/2019/07/louie-white-lion-at-lions-tigers-and-bears.jpg",
+            "type": "select_right_answer",
+            "answer": "1",
+            "quest": ["Proposition 1", "Correct Proposition", "Proposition 3"]
         },
         {
             "userId": "user1",
             "content": "This is a quest with an image .webp.",
-            "image": "https://cdnfr1.img.sputniknews.com/img/104257/83/1042578386_0:96:1920:1134_1000x0_80_0_1_93e39362a2641c4aadf2feea8ff74fa1.jpg.webp"
+            "image": "https://cdnfr1.img.sputniknews.com/img/104257/83/1042578386_0:96:1920:1134_1000x0_80_0_1_93e39362a2641c4aadf2feea8ff74fa1.jpg.webp",
+            "type": "exact_answer",
+            "answer": "1 Million",
+            "quest": ["How many likes for me to jump off with a parachute?"]
         },
         {
             "userId": "user1",
             "content": "This is a quest with a large image.",
-            "image": "http://www.ricoh-imaging.co.jp/english/products/q-s1/ex/img/bod_mainImg_01.jpg"
+            "image": "http://www.ricoh-imaging.co.jp/english/products/q-s1/ex/img/bod_mainImg_01.jpg",
+            "type": "gavo_code",
+            "answer": "This_is_awesome",
+            "quest": ["What's the code?"]
         }
     ],
     "users": [
